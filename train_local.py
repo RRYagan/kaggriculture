@@ -137,6 +137,8 @@ def train(
     global_dim = 2  # money, shed_value
     hidden_dim = config.hidden_dim
     num_actions = executor.num_macros
+    
+
 
     agent = PPOAgent(
         obs_dim=obs_dim,
